@@ -17,7 +17,6 @@ ME_MSG = """
 <b>Unfinished Guess :</b> <code>{}</code>
 <b>Total Questions :</b> <code>{}</code>
 """
-HELP_TXT ="""hi"""
 GITHUB_URL = "https://t.me/tvseriezzz"
 DEV_URL = "https://t.me/MrC_VENOM"
 
