@@ -48,8 +48,8 @@ AKI_LANG_BUTTON = InlineKeyboardMarkup(
 CHILDMODE_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Enable", callback_data='c_mode_1'),
-            InlineKeyboardButton("Disable", callback_data='c_mode_0')
+            InlineKeyboardButton("😌 Enable 😌", callback_data='c_mode_1'),
+            InlineKeyboardButton("🙃 Disable 🙃", callback_data='c_mode_0')
         ]
     ]
 )
@@ -58,15 +58,15 @@ CHILDMODE_BUTTON = InlineKeyboardMarkup(
 AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_play_0'),
-            InlineKeyboardButton("No", callback_data='aki_play_1'),
-            InlineKeyboardButton("Probably", callback_data='aki_play_3')
+            InlineKeyboardButton("🙂 Yes 🙂", callback_data='aki_play_0'),
+            InlineKeyboardButton("🙄 No 🙄", callback_data='aki_play_1'),
+            InlineKeyboardButton("🤔 Probably 🤔", callback_data='aki_play_3')
         ],
         [
-            InlineKeyboardButton("I don't know", callback_data='aki_play_2'),
-            InlineKeyboardButton("Probably Not", callback_data='aki_play_4')
+            InlineKeyboardButton("😢 I don't know 😢", callback_data='aki_play_2'),
+            InlineKeyboardButton("😕 Probably Not 😕", callback_data='aki_play_4')
         ],
-        [   InlineKeyboardButton("Back", callback_data= 'aki_play_5')
+        [   InlineKeyboardButton("🚶‍♂️ Back 🚶‍♂️", callback_data= 'aki_play_5')
         ]
     ]
 )
@@ -74,8 +74,8 @@ AKI_PLAY_KEYBOARD = InlineKeyboardMarkup(
 AKI_WIN_BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Yes", callback_data='aki_win_y'),
-            InlineKeyboardButton("No", callback_data='aki_win_n'),
+            InlineKeyboardButton("😌 Yes 😌", callback_data='aki_win_y'),
+            InlineKeyboardButton("🙃 No 🙃", callback_data='aki_win_n'),
         ]
     ]
 )
@@ -84,12 +84,12 @@ AKI_WIN_BUTTON = InlineKeyboardMarkup(
 AKI_LEADERBOARD_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Total Guesses", callback_data='aki_lead_tguess'),
-            InlineKeyboardButton("Correct Guesses", callback_data='aki_lead_cguess'),
+            InlineKeyboardButton("😌 Total Guesses", callback_data='aki_lead_tguess'),
+            InlineKeyboardButton("Correct Guesses 😌", callback_data='aki_lead_cguess'),
         ],
         [
-            InlineKeyboardButton("Wrong Guesses", callback_data='aki_lead_wguess'),
-            InlineKeyboardButton("Total Questions", callback_data='aki_lead_tquestions'),
+            InlineKeyboardButton("😌 Wrong Guesses", callback_data='aki_lead_wguess'),
+            InlineKeyboardButton("Total Questions 😌", callback_data='aki_lead_tquestions'),
         ]
     ]
 )
