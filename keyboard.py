@@ -4,8 +4,12 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 START_KEYBOARD = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Github', GITHUB_URL),
-            InlineKeyboardButton('Developer', DEV_URL)   
+            InlineKeyboardButton('♻️ ⒼⓇⓄⓊⓅ ♻️', GITHUB_URL),
+            InlineKeyboardButton('🔥 Dev 🔥', DEV_URL)
+        ],
+        [
+            InlineKeyboardButton("⭕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️", url="https://t.me/tvseriezzz_update"),
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]
     ]
 )
@@ -90,3 +94,16 @@ AKI_LEADERBOARD_KEYBOARD = InlineKeyboardMarkup(
         ]
     ]
 )
+
+
+elif query.data == "help":
+        buttons = [[
+            InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/tvseriezzz"),
+            InlineKeyboardButton("⭕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️", url="https://t.me/tvseriezzz_update")
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HELP_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
