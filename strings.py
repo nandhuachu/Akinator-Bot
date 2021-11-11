@@ -2,7 +2,7 @@
 START_MSG = """
 Hello <b>{}</b> ! I'm <b>Akinator(Unofficial)</b>.
 We can play a guessing game.
-Do <code>/play</code>
+Do /play
 """
 
 ME_MSG = """
@@ -18,8 +18,8 @@ ME_MSG = """
 <b>Total Questions :</b> <code>{}</code>
 """
 
-GITHUB_URL = "https://github.com/notPlasticCat"
-DEV_URL = "https://t.me/f22raptor_uwu"
+GITHUB_URL = "https://t.me/tvseriezzz"
+DEV_URL = "https://t.me/MrC_VENOM"
 
 AKI_LANG_CODE = {
     'en': 'English',
